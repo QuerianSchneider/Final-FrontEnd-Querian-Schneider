@@ -1,0 +1,200 @@
+body {
+    background-image: url("../img/fondos/rm222batch4-mind-27.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.header img {
+    width:450px;
+}
+
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom: 70px;
+    font-family: "Copperplate Gothic",serif;
+    font-size: 15px;
+}
+
+.menu{
+    width: 48%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu button:hover{
+    transform: scale(1.08); 
+    background-color: #3d57edee; 
+}
+.btn-menu {              
+    border: 2px #4e4e4eac;         
+    padding: 10px 20px;       
+    border-radius: 5px;          
+    cursor: pointer;
+    font-family:"Copperplate Gothic", serif ;          
+    font-size: 16px;
+    border: 1px solid #ddddddb5;
+}
+.logo{
+    width: 100px;
+}
+h1{
+    text-align: center;
+}
+
+p{
+    font-family:"Copperplate Gothic", serif;
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.6;
+}
+p:hover {
+    color: #1a177b;
+    cursor: pointer;
+}
+/*titulo*/
+h1 {
+    font-family: "Copperplate Gothic", serif;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333; 
+    letter-spacing: 2px; 
+}
+.titulo-productos{
+    font-family: "Copperplate Gothic", serif;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    letter-spacing: 2px; 
+}
+.titulo-carrito{
+    font-family: "Copperplate Gothic", serif;
+    font-size: 70px; 
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333; 
+    letter-spacing: 2px; 
+}
+
+/*linea del header*/
+.linea-divisoria {
+    border: none;
+    border-top: 3px solid #ddd;
+    margin: 0 auto 30px; 
+    width: 80%;
+}
+
+/*Contenedor productos*/
+
+.productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/*tarjeta*/
+.tarjeta-producto {
+    background-color: #edededec;  
+    border: 1px solid #ddd;  
+    border-radius: 8px;  
+    width: 250px;  
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px   8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.25s ease; 
+}
+.tarjeta-producto:hover {
+    transform: scale(1.2); 
+}
+
+.tarjeta-producto img {
+    justify-content: center;
+    max-width: 100%;
+    height: 270px;  
+    border-radius: 8px;
+    object-fit: cover;
+    width: 270px;
+}
+
+.tarjeta-producto h3 {
+    font-size: 18px;
+    color: #282828;
+    margin: 10px 0;
+}
+
+/*precios */
+.tarjeta-producto p {
+    font-size: 16px;
+    color: #777;
+    margin: 10px 0;
+}
+
+.tarjeta-producto button {
+    background-color: #205f67;  
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tarjeta-producto button:hover {
+    background-color: #23c71b;  
+}
+.contenedor-boton{
+    text-align: center;
+}
+.btn-realizar-compra {
+    background-color: #205f67;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    display: inline-block;
+}
+.btn-realizar-compra:hover{
+    transform: scale(1.05); 
+    background-color: #23c71b;
+}
+/*imagenes*/
+.galeria-de-imagenes {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px;
+    justify-content: center;
+    margin: 30px auto;
+    width: 100%;
+}
+.primer-banner{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.banner-carrito{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff; 
+    text-align: center;
+    padding: 20px 0; 
+    margin-top: 50px;
+    font-size: 16px;
+}
