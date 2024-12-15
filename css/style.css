@@ -84,7 +84,7 @@ h1 {
 }
 
 /*linea del header*/
-.linea-divisoria {
+.linea-divisora {
     border: none;
     border-top: 3px solid #ddd;
     margin: 0 auto 30px; 
